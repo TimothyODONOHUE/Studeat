@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+body {
+background-image: url('.//img/IMG-tacos.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.titre {
+display: flex;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+color:white;
+}
+
+.bar {
+background-color: #FFF57B;
+height: 2pt;
+width: 70px;
+margin-left: 52px;
+position:relative;
+bottom:18px;
+}
+
+.ligne1 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 52px;
+}
+
+.ligne1tailles {
+margin-left:5px;
+}
+
+.ligne2 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 52px;
+margin-top:-30px;
+}
+
+.ligne2tailles {
+margin-left:5px;
+}
+
+.ligne3 {
+    display:flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin-left: 52px;
+    margin-top:-30px;
+    }
+    
+    .ligne3tailles {
+    margin-left:5px;
+    }
+
+
+.ligne4 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 52px;
+margin-top:-30px;
+}
+
+.ligne4tailles {
+margin-left:5px;
+}       
+
+.bar2 {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 55px;
+   
+    }
+
+.bouttoncommander {
+    background-color:#FFF57B ;
+    height:75px;
+    width:230px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+   
+}
+
+.commander {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.bar3 {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 55px;
+   
+    }
+
+.notetitre {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    margin-left: 55px;
+    position: relative;
+    top: 25px;
+}
+
+.etoiles {
+    display:flex;
+    justify-content: center;
+}
+
+.note {
+    
+    margin-left:40px;
+}
+
+.img-tacos {
+    position: relative;
+    right:250px;
+    
+   
+}
+
+
+.jaune{ color:#F3C892 ;}
