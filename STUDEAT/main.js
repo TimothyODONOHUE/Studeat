@@ -62,3 +62,43 @@ viandekebab.addEventListener("click", ()=>{
     }
 })
 
+const saucefromagereoui = document.querySelector(".saucefromagereoui")
+const saucefromagerenon = document.querySelector(".saucefromagerenon")
+
+
+saucefromagereoui.addEventListener("click", ()=>{
+
+    if(!saucefromagereoui.classList.contains("jaune")){
+            saucefromagerenon.classList.remove("jaune")
+            saucefromagereoui.classList.add("jaune")
+    }
+})
+
+saucefromagerenon.addEventListener("click", ()=>{
+
+    if(!saucefromagerenon.classList.contains("jaune")){
+            saucefromagereoui.classList.remove("jaune")
+            saucefromagerenon.classList.add("jaune")
+    }
+})
+
+const algerienne = document.querySelector(".algerienne")
+const blanche = document.querySelector(".blanche")
+
+
+algerienne.addEventListener("click", ()=>{
+
+    if(!algerienne.classList.contains("jaune")){
+            blanche.classList.remove("jaune")
+            algerienne.classList.add("jaune")
+    }
+})
+
+blanche.addEventListener("click", ()=>{
+
+    if(!blanche.classList.contains("jaune")){
+            algerienne.classList.remove("jaune")
+            blanche.classList.add("jaune")
+    }
+})
+
