@@ -11,7 +11,7 @@ height: 100vh;
 
 .titre {
 display: flex;
-justify-content: center;
+margin-left: 30px;
 font-family: 'Roboto', sans-serif;
 color:white;
 }
@@ -20,7 +20,7 @@ color:white;
 background-color: #FFF57B;
 height: 2pt;
 width: 70px;
-margin-left: 52px;
+margin-left: 30px;
 position:relative;
 bottom:18px;
 }
@@ -30,7 +30,7 @@ display:flex;
 align-items: center;
 font-family: 'Poppins', sans-serif;
 color:white;
-margin-left: 52px;
+margin-left: 30px;
 }
 
 .ligne1tailles {
@@ -42,7 +42,7 @@ display:flex;
 align-items: center;
 font-family: 'Poppins', sans-serif;
 color:white;
-margin-left: 52px;
+margin-left: 30px;
 margin-top:-30px;
 }
 
@@ -55,7 +55,7 @@ margin-left:5px;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     color:white;
-    margin-left: 52px;
+    margin-left: 30px;
     margin-top:-30px;
     }
     
@@ -69,7 +69,7 @@ display:flex;
 align-items: center;
 font-family: 'Poppins', sans-serif;
 color:white;
-margin-left: 52px;
+margin-left: 30px;
 margin-top:-30px;
 }
 
@@ -112,19 +112,33 @@ margin-left:5px;
     color:white;
     font-family: 'Poppins', sans-serif;
     display:flex;
-    margin-left: 55px;
-    position: relative;
-    top: 25px;
-}
-
-.etoiles {
-    display:flex;
-    justify-content: center;
+    font-size:18px;
+    position:relative;
+    bottom:3px;
+    margin-right: 12px;
+    
 }
 
 .note {
     
-    margin-left:40px;
+    display:flex;
+    justify-content: center;
+    margin-top: 12px;
+    
+}
+
+
+.etoiles {
+    display:flex;
+    height:19px;
+    width:120px;
+    
+    
+}
+
+.note {
+    display:flex;
+    
 }
 
 .img-tacos {
@@ -136,3 +150,22 @@ margin-left:5px;
 
 
 .jaune{ color:#F3C892 ;}
+
+.flèche {
+    margin-left:25px;
+    margin-top:12px;
+    height:50px;
+}
+
+.panier {
+    margin-left: 160px;
+    margin-top:12px;
+    height:50px;
+}
+
+.photo-mathis {
+    height:50px;
+    margin-top:12px;
+}
+
+

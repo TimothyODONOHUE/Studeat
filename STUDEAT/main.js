@@ -5,3 +5,4 @@ boutons.forEach((bouton)=>{
     bouton.addEventListener("click", ()=>{
         bouton.classList.toggle("jaune")
 })})
+
